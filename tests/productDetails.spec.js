@@ -30,13 +30,14 @@ describe("6 - Implemente os casos de teste para a função `productDetails`", ()
   it("Verifica se a função `productDetails` tem o comportamento esperado", () => {
     // Consegui com a ajuda da Fernanda na mentoria
     expect(typeof productDetails).toBe("function");
+
     expect(Array.isArray(productDetails("a", "b"))).toBe(true);
-    expect(productDetails('a', 'b')).toHaveLength(2);
-    // Teste se os dois itens dentro do array retornado pela função são objetos.
-    expect(typeof productDetails('a', 'b')).toBe('object');
+
+    expect(productDetails("a", "b")).toHaveLength(2);
+
+    expect(typeof productDetails("a", "b")).toBe("object");
     // Teste se quando passado parâmetros diferentes entre si, os dois objetos também são diferentes entre si.
 
     // Teste se os dois productIds terminam com 123.
-    // expect(productDetails('a', 'b')).toContains(123);
   });
 });
