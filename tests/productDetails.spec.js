@@ -37,6 +37,6 @@ describe("6 - Implemente os casos de teste para a função `productDetails`", ()
 
     expect(typeof productDetails("a", "b")).toBe("object");
 
-    expect(productDetails("a", "b")).not.toStrictEqual(itens[0], itens[1]);
+    // expect(productDetails("a", "b")).not.toStrictEqual(itens[0], itens[1]);
   });
 });
