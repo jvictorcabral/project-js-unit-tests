@@ -35,7 +35,7 @@ describe("4 - Implemente os casos de teste para a função `circle`", () => {
 
     expect(Object.values(circle(2))[2]).toBeCloseTo(12.56); // Consegui na mentoria da Fernanda
 
-    expect(circle(3)).toEqual(28.259999999999998);
+    // expect(circle(3)).toEqual(28.259999999999998);
 
     // expect(circle(3)).toEqual({
     //   radio: 3,
