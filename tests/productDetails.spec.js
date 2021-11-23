@@ -36,8 +36,7 @@ describe("6 - Implemente os casos de teste para a função `productDetails`", ()
     expect(productDetails("a", "b")).toHaveLength(2);
 
     expect(typeof productDetails("a", "b")).toBe("object");
-    // Teste se quando passado parâmetros diferentes entre si, os dois objetos também são diferentes entre si.
 
-    // Teste se os dois productIds terminam com 123.
+    expect(productDetails("a", "b")).not.toStrictEqual(itens[0], itens[1]);
   });
 });
