@@ -12,8 +12,8 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
+// fiz com a ajuda do giovanni na mentoria
 const average = (array) => {
-  // fiz com a ajuda do giovanni na mentoria
   let soma = 0;
 
   if (array.length === 0) {
